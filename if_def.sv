@@ -23,7 +23,7 @@ parameter    VIDEO_DATA_WIDTH  = 30;
 parameter    TIMING_CNT_WIDTH  = 11;
 parameter    OVERLAP_WIDTH     = 4;
 parameter    RAM_DEPTH         = 1024*OVERLAP_WIDTH;
-parameter    OUTPUT_DIRECTION  = 64'ha;
+parameter    OUTPUT_DIRECTION  = 64'hb;
 
 `ifdef  a1
     parameter CHANNEL_IN_NUM   = 1;
